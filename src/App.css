@@ -1,0 +1,36 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.app-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+}
+
+.app-header h3 {
+  color: #006400;
+  text-align: center;
+  flex-grow: 1;
+}
+
+
+.hospital-logo {
+  font-size: 11px;
+  color: #006400;
+}
+
+.LOGOTIPO_RHP {
+  width: 30px;
+  height: 30px;
+}
+
+
+
+.app-body {
+  display: flex;
+  flex: 1;
+}
